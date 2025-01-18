@@ -1,0 +1,687 @@
+body{
+    background-color: aliceblue;
+}
+
+.contenedor{
+    background-color: rgba(255,255,255,255);
+    position: fixed;
+    top: -6px;
+    left: -6px;
+    width: 1540px;
+    height: 800px;
+    border-radius: 6px;
+}
+
+.navbar{
+    background-color: rgba(250,250,250,255);
+    width: 300px;
+    height: 800px;
+}
+
+.Tasky{
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+
+a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(125, 125, 125);
+}
+
+.Dashboard{
+    position: relative;
+    z-index: 1000;
+    color: white;
+    top: 65px;
+    right: 42px;
+}
+
+.Tasks{
+    position: relative;
+    top: 135px;
+    right: 130px;
+}
+
+.Calendar{
+    position: relative;
+    top: 185px;
+    left: 60px;
+}
+
+.Members{
+    position: relative;
+    top: 250px;
+    right: 15px;
+}
+
+.CuadroAzul{
+    background-color: rgb(56,56,230,255);
+    width: 290px;
+    height: 60px;
+    position: relative;
+    left: 10px;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.DashboardImg{
+    position: relative;
+    z-index: 999;
+    bottom:45px;
+    left: 25px;
+}
+
+.TasksImg{
+    position: relative;
+    top: 20px;
+    right: 4px;
+}
+
+.CalendarImg{
+    position: relative;
+    top: 92px;
+    right: 28px;
+}
+
+.MembersImg{
+    position: relative;
+    top: 158px;
+    right: 52px;
+}
+
+#SearchBar{
+    background-color: rgba(231,231,231,255);
+    width: 400px;
+    height: 46px;
+    border-radius: 6px;
+    border: 0.5px solid rgba(231,231,231,255);
+    position: relative;
+    z-index: 999;
+    bottom: 780px;
+    left: 350px;
+}
+
+#SearchText{
+    color: rgba(127,127,127,255);
+    position: relative;
+    z-index: 999;
+    font-size: 1.2rem;
+    bottom: 835px;
+    left: 415px;
+}
+
+#Busqueda{
+    position: relative;
+    bottom: 876px;
+    left: 380px;
+    z-index: 1001;
+}
+
+.MessageImg{
+    position: absolute;
+    right: 200px;
+    bottom: 720px;
+    z-index: 999;
+}
+
+.NotificationsImg{
+    position: absolute;
+    right: 130px;
+    bottom: 720px;
+    z-index: 999;
+}
+
+.Perfil{
+    position: absolute;
+    right: 60px;
+    bottom: 720px;
+    z-index: 999;
+}
+
+button{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.Preview{
+    position: absolute;
+    left: 360px;
+    top: 110px;
+    z-index: 999;
+}
+
+.Sort{
+    position: absolute;
+    left: 420px;
+    top: 110px;
+    z-index: 999;
+}
+
+.Filter{
+    position: absolute;
+    left: 480px;
+    top: 110px;
+    z-index: 999;
+}
+
+#Gente{
+    position: absolute;
+    right: 240px;
+    top: 105px;
+    z-index: 999;
+}
+
+.Add{
+    position: absolute;
+    right: 200px;
+    top: 110px;
+    z-index: 998;
+}
+
+.CuadroTask{
+    background-color: rgb(56,56,230,255);
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 990;
+    right: 30px;
+    top: 98px;
+}
+
+.CuadroTask h1{
+    position: relative;
+    bottom: 31px;
+    left: 5px;
+    color: white;
+}
+
+.CuadroTask img{
+    position: relative;
+    right: 50px;
+    top: 10px;
+}
+
+.ComboBoxes{
+    width: 1130px;
+    height: 35px;
+    position: absolute;
+    bottom: 585px;
+    left: 360px;
+}
+
+.combobox1{
+    width: 310px;
+    height: 35px;
+    border-radius: 5px;
+    position: relative;
+    border-color: rgba(149,149,242,255);
+}
+
+.combobox2{
+    width: 310px;
+    height: 35px;
+    border-radius: 5px;
+    position: relative;
+    left: 99px;
+    border-color: rgba(149,149,242,255);
+}
+
+.combobox3{
+    width: 310px;
+    height: 35px;
+    border-radius: 5px;
+    position: relative;
+    left: 192px;
+    border-color: rgba(149,149,242,255);
+}
+
+option{
+    text-align: left;
+}
+
+.Tarjeticas{
+    position: absolute;
+    top: 225px;
+    right: 60px;
+    width: 1130px;
+    height: 60px;
+    z-index: 1000;
+}
+
+.HighPriority{
+    background-color: rgba(255,209,209,255);
+    color: rgba(145,113,99,255);
+    border-radius: 5px;
+    font-size: 10px;
+    text-align: center;
+    width: 70px;
+    height: 27px;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
+
+#High{
+    position: absolute;
+    top: -4px;
+    right: 23px;
+}
+
+.datetime{
+    background-color: rgb(239, 245, 245);
+    color: rgba(130,92,245,255);
+    border-radius: 5px;
+    width: 90px;
+    height: 27px;
+    position: absolute;
+    z-index: 1200;
+    top: 25px;
+    left: 110px;
+}
+
+.datetime img{
+    position: absolute;
+    z-index: 1300;
+    left: 7px;
+    top: 6px;
+}
+
+#Date-Time{
+    color: rgba(160,132,242,255);
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    left: 29px;
+    top: -4px;
+}
+
+.UX-Design{
+    background-color: rgba(236,229,255,255);
+    color: rgba(130,92,245,255);
+    border-radius: 5px;
+    font-size: 10px;
+    text-align: center;
+    width: 80px;
+    height: 27px;
+    position: absolute;
+    z-index: 1450;
+    top: 25px;
+    left: 237px;
+}
+
+#UXD{
+    position: absolute;
+    top: -3px;
+    left: 13px;
+}
+
+.HighPriority1{
+    background-color: rgba(255,209,209,255);
+    color: rgba(145,113,99,255);
+    border-radius: 5px;
+    font-size: 10px;
+    text-align: center;
+    width: 70px;
+    height: 27px;
+    position: absolute;
+    top: 25px;
+    left: 430px;
+}
+
+#High1{
+    position: absolute;
+    top: -4px;
+    right: 23px;
+}
+
+.datetime1{
+    background-color: rgb(239, 245, 245);
+    color: rgba(130,92,245,255);
+    border-radius: 5px;
+    width: 90px;
+    height: 27px;
+    position: absolute;
+    z-index: 1200;
+    top: 25px;
+    left: 535px;
+}
+
+.datetime1 img{
+    position: absolute;
+    z-index: 1300;
+    left: 7px;
+    top: 6px;
+}
+
+#Date-Time1{
+    color: rgba(160,132,242,255);
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    left: 29px;
+    top: -4px;
+}
+
+.UX-Design1{
+    background-color: rgba(236,229,255,255);
+    color: rgba(130,92,245,255);
+    border-radius: 5px;
+    font-size: 10px;
+    text-align: center;
+    width: 80px;
+    height: 27px;
+    position: absolute;
+    z-index: 1450;
+    top: 24px;
+    left: 659px;
+}
+
+#UXD1{
+    position: absolute;
+    top: -3px;
+    left: 13px;
+}
+
+.HighPriority2{
+    background-color: rgba(255,209,209,255);
+    color: rgba(145,113,99,255);
+    border-radius: 5px;
+    font-size: 10px;
+    text-align: center;
+    width: 70px;
+    height: 27px;
+    position: absolute;
+    top: 25px;
+    left: 829px;
+}
+
+#High2{
+    position: absolute;
+    top: -4px;
+    right: 23px;
+}
+
+.datetime2{
+    background-color: rgb(239, 245, 245);
+    color: rgba(130,92,245,255);
+    border-radius: 5px;
+    width: 90px;
+    height: 27px;
+    position: absolute;
+    z-index: 1200;
+    top: 24px;
+    left: 935px;
+}
+
+.datetime2 img{
+    position: absolute;
+    z-index: 1300;
+    left: 7px;
+    top: 6px;
+}
+
+#Date-Time2{
+    color: rgba(160,132,242,255);
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    left: 29px;
+    top: -4px;
+}
+
+.UX-Design2{
+    background-color: rgba(236,229,255,255);
+    color: rgba(130,92,245,255);
+    border-radius: 5px;
+    font-size: 10px;
+    text-align: center;
+    width: 80px;
+    height: 27px;
+    position: absolute;
+    z-index: 1450;
+    top: 24px;
+    left: 1060px;
+}
+
+#UXD2{
+    position: absolute;
+    top: -3px;
+    left: 13px;
+}
+
+.tarjeta1{
+    background-color: rgba(232,232,232,255);
+    width: 310px;
+    height: 200px;
+    border-radius: 8px;
+    position: absolute;
+    top: 290px;
+    left: 360px;
+}
+
+.tarjeta1 h1{
+    position: absolute;
+    top: -5px;
+    left: 5px;
+}
+
+.tarjeta1 img{
+    position: absolute;
+    top: 10px;
+    right: 3px;
+}
+
+.tarjeta1 p{
+    position: absolute;
+    top: 25px;
+    left: 5px;
+    color: rgba(139,139,139,255);
+}
+
+.checklist{
+    background-color: rgba(232,232,232,255);
+    width: 50px;
+    height: 22px;
+    border-radius: 5px;
+    border-color: rgba(164,164,164,255);
+    position: absolute;
+    top: 85px;
+    left: 5px;
+}
+
+.checklist img{
+    position: absolute;
+    top: 4px;
+    left: 3px;
+}
+
+#check{
+    position: relative;
+    top: -12.5px;
+    left: 4px;
+    z-index: 1100;
+}
+
+#Gente1{
+    position: absolute;
+    z-index: 1010;
+    top: 155px;
+    left: 5px;
+}
+
+#Eye{
+    position: absolute;
+    top: 175px;
+    left: 215px;
+}
+
+#Trash{
+    position: absolute;
+    top: 175px;
+    left: 250px;
+}
+
+#Pencil{
+    position: absolute;
+    top: 175px;
+    right: 5px;
+}
+
+.tarjeta2{
+    background-color: rgba(232,232,232,255);
+    width: 310px;
+    height: 200px;
+    border-radius: 8px;
+    position: absolute;
+    top: 290px;
+    left: 780px;
+}
+
+.tarjeta2 h1{
+    position: absolute;
+    top: -5px;
+    left: 5px;
+}
+
+.tarjeta2 img{
+    position: absolute;
+    top: 10px;
+    right: 3px;
+}
+
+.tarjeta2 p{
+    position: absolute;
+    top: 25px;
+    left: 5px;
+    color: rgba(139,139,139,255);
+}
+
+.checklist{
+    background-color: rgba(232,232,232,255);
+    width: 50px;
+    height: 22px;
+    border-radius: 5px;
+    border-color: rgba(164,164,164,255);
+    position: absolute;
+    top: 85px;
+    left: 5px;
+}
+
+.checklist img{
+    position: absolute;
+    top: 4px;
+    left: 3px;
+}
+
+#check{
+    position: relative;
+    top: -12.5px;
+    left: 4px;
+    z-index: 1100;
+}
+
+#Gente1{
+    position: absolute;
+    z-index: 1010;
+    top: 155px;
+    left: 5px;
+}
+
+#Eye{
+    position: absolute;
+    top: 175px;
+    left: 215px;
+}
+
+#Trash{
+    position: absolute;
+    top: 175px;
+    left: 250px;
+}
+
+#Pencil{
+    position: absolute;
+    top: 175px;
+    right: 5px;
+}
+
+.tarjeta3{
+    background-color: rgba(232,232,232,255);
+    width: 310px;
+    height: 200px;
+    border-radius: 8px;
+    position: absolute;
+    top: 290px;
+    left: 1180px;
+}
+
+.tarjeta3 h1{
+    position: absolute;
+    top: -5px;
+    left: 5px;
+}
+
+.tarjeta3 img{
+    position: absolute;
+    top: 10px;
+    right: 3px;
+}
+
+.tarjeta3 p{
+    position: absolute;
+    top: 25px;
+    left: 5px;
+    color: rgba(139,139,139,255);
+}
+
+.checklist{
+    background-color: rgba(232,232,232,255);
+    width: 50px;
+    height: 22px;
+    border-radius: 5px;
+    border-color: rgba(164,164,164,255);
+    position: absolute;
+    top: 85px;
+    left: 5px;
+}
+
+.checklist img{
+    position: absolute;
+    top: 4px;
+    left: 3px;
+}
+
+#check{
+    position: relative;
+    top: -12.5px;
+    left: 4px;
+    z-index: 1100;
+}
+
+#Gente1{
+    position: absolute;
+    z-index: 1010;
+    top: 155px;
+    left: 5px;
+}
+
+#Eye{
+    position: absolute;
+    top: 175px;
+    left: 215px;
+}
+
+#Trash{
+    position: absolute;
+    top: 175px;
+    left: 250px;
+}
+
+#Pencil{
+    position: absolute;
+    top: 175px;
+    right: 5px;
+}
